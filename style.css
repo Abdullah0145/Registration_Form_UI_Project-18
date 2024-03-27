@@ -1,0 +1,56 @@
+div.parent-class {
+    width: 450px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+div.parent-class  div.parent-child-class {
+    width: 300px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(144, 8, 144);
+    border-radius: 5px;
+}
+
+div.parent-child-class div.sub-child-class {
+    width: 300px;
+    height: 60px; 
+    background-color: rgb(8, 8, 145);
+}
+
+div.sub-child-class span.form {
+    margin-left: 75px;
+    color: white;
+    font-size: 20px;
+}
+
+div.parent-child-class div.text-file {
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 50px;
+    color: rgb(218, 213, 213);
+    font-size: 13px;
+}
+
+div.parent-child-class button.btn {
+    margin-left: 150px;
+    margin-top: 15px;
+    background-color: rgb(30, 192, 30);
+    border-radius: 5px;
+    color: white;
+}
+
+div.parent-class div.designed {
+    margin-left: 150px;
+    margin-top: 70px;
+    color: rgb(221, 218, 218);
+}
+
+
+
